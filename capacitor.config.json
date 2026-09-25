@@ -1,0 +1,5 @@
+{
+  "appId": "com.aula08.meuapp",
+  "appName": "Meu App Supabase",
+  "webDir": "dist"
+}

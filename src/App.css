@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.app {
+  max-width: 480px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.topo {
+  background: #3ecf8e;
+  color: #ffffff;
+  padding: 32px 20px 24px;
+  text-align: center;
+}
+
+.topo h1 {
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+}
+
+.conteudo {
+  flex: 1;
+  padding: 20px;
+}
+
+.botao {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #1e293b;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.botao:disabled {
+  opacity: 0.6;
+}
+
+.mensagem {
+  padding: 14px;
+  border-radius: 10px;
+  background: #e2e8f0;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.mensagem.erro {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 12px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.nome {
+  font-weight: bold;
+}
+
+.preco {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.rodape {
+  text-align: center;
+  padding: 16px;
+  font-size: 0.8rem;
+  color: #64748b;
+}
